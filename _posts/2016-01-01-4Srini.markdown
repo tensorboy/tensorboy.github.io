@@ -1,0 +1,6 @@
+---
+layout: null
+title: Fall 12 - Fall 2015
+image: "assets/img/tisco1.jpeg"
+---
+Mechanical Control Engineer

@@ -1,0 +1,7 @@
+---
+layout: null
+title: Fall 15 - Fall 16
+subtitle: <a href="https://media.au.tsinghua.edu.cn/qhdai.html"> Tsinghua Multimedia Lab by Qionghai Dai</a>
+image: "assets/img/tsinghua.png"
+---
+Worked on face gender, smiling, age and re-identification.

@@ -1,0 +1,14 @@
+url: http://tensorboy.github.io
+baseurl: ""
+
+# Site Settings
+title: Wangpeng An
+description: "Wangpeng An Homepage"
+keywords: "Wangpeng An, Computer Vision"
+collections:
+ notes:
+    name: Notes
+    documentation: https://github.com/Shopify/liquid/wiki/Liquid-for-Designers
+    output: true
+markdown: kramdown
+exclude: ["Rakefile", "LICENSE", "readme.markdown"]

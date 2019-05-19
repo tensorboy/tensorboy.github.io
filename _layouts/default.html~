@@ -1,0 +1,202 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<div id="particles-js" text-align="center"></div>
+{% include google_analytics.html %}
+{% include head.html %}
+{% include navigation.html %}
+{% include about.html %}
+
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+  {% for page in site.pages %}
+    {% if page.section-type == "intro" %}
+      <section id="{{ page.title }}" class="container content-section">
+          <div class="row">
+              <div class="col-lg-8 col-lg-offset-2">
+                    {{ page.content | markdownify }}
+
+                    {% if page.email %}
+                    <p><a href="mailto:{{ page.email }}">{{ page.email }}</a></p>
+                    {% endif %}
+                    <ul class="list-inline social-buttons">
+                        {% for network in page.social %}
+                        <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }} fa-fw"></i></a></li>
+                        {% endfor %}
+                    </ul>
+              </div>
+          </div>
+      </section>
+    {% elsif page.section-type == "research" %}
+
+      <section id="{{ page.title }}" class="container content-section text-center">
+          <div class="row">
+              <div class="col-lg-8 col-lg-offset-2">
+                {{ page.content | markdownify }}
+              </div>
+          </div>
+
+           <table id="example" class="display" style="width:100%">
+        <thead>
+            <tr>
+                <th>year</th>
+                <th>title</th>
+                <th>authors</th>
+                <th>tags</th>
+                <th>paper</th>
+                <th>code</th>
+                <th>slides</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>2019</td>
+                <td>Sparse, collaborative, or nonnegative representation: Which helps pattern classification?</td>
+                <td>Jun Xu, Wangpeng An, Lei Zhang, David Zhang</td>
+                <td>ml</td>
+                <td><a href="https://www.sciencedirect.com/science/article/abs/pii/S003132031830445X">pattern recognition</a></td>
+                <td>--</td>
+                <td>--</td>
+            </tr>
+            <tr>
+                <td>2018</td>
+                <td>A PID Controller Approach for Stochastic Optimization of Deep Networks</td>
+                <td>Wangpeng An, Haoqian Wang, Qingyun Sun, Jun Xu, Qionghai Dai, Lei Zhang</td>
+                <td>dl, optimization</td>
+                <td><a href="http://openaccess.thecvf.com/content_cvpr_2018/html/An_A_PID_Controller_CVPR_2018_paper.html">CVPR spotlight</a></td>
+                <td><a href="https://github.com/tensorboy/PIDOptimizer"><i class="fa fa-code fa-fw"></i></a></td>
+                <td>--</td>
+            </tr>
+            <tr>
+                <td>2018</td>
+                <td>Magnify-Net for Multi-Person 2D Pose Estimation</td>
+                <td>Haoqian Wang, Wang Peng An, Xingzheng Wang, Lu Fang and Jiahui Yuan</td>
+                <td>dl, human pose</td>
+                <td><a href="https://ieeexplore.ieee.org/abstract/document/8486591">icme oral</a></td>
+                <td>--</td>
+                <td>--</td>
+            </tr>
+           <tr>
+                <td>2018</td>
+                <td>Detecting non-hardhat-use by a deep learning method from far-field surveillance videos</td>
+                <td>Qi Fang, Heng Li, X.C. Luo, L.Y. Ding, H.B Luo, Timothy M.Rose and Wangpeng An</td>
+                <td>dl, safety</td>
+                <td><a href="https://www.sciencedirect.com/science/article/pii/S0926580517304429">Automation in Construction</a></td>                
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+            </tr>
+           <tr>
+                <td>2018</td>
+                <td>A deep learning-based method for detecting non-certified work on construction sites</td>
+                <td>Qi Fang, Heng L., X.C. Luo, Lieyun D., T. M. Rose, Wangpeng An, Yantao Yu</td>
+                <td>dl, safety</td>
+                <td><a href="https://www.sciencedirect.com/science/article/pii/S1474034617303166">Advanced Engineering Informatics</a></td>                
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+            </tr>
+           <tr>
+                <td>2017</td>
+                <td>Exponential Decay Sine Wave Learning Rate for Fast Deep Neural Network Training</td>
+                <td>Wangpeng An, Haoqian Wang, Yulun Zhang, Qionghai Dai</td>
+                <td>dl, optimization</td>
+                <td><a href="https://ieeexplore.ieee.org/abstract/document/8305126">vcip oral</a></td>                
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+            </tr>            
+           <tr>
+                <td>2017</td>
+                <td>Student-t Process Regression with Student-t Likelihood</td>
+                <td>Qingtao Tang, Li Niu, Y.S Wang, Tao Dai, Wangpeng An</td>
+                <td>ml</td>
+                <td><a href="https://www.ijcai.org/proceedings/2017/0393.pdf">ijcai</a></td>                
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+            </tr>            
+           <tr>
+                <td>2016</td>
+                <td>Fast and Accurate Image Denoising via a Deep Convolutional-Pairs Network</td>
+                <td>Lulu Sun, Yongbing Zhang, Wangpeng An, Jingtao Fan, Jian Zhang, Haoqian Wang, Qionghai Dai</td>
+                <td>ml</td>
+                <td><a href="https://link.springer.com/chapter/10.1007/978-3-319-48890-5_19">pcm</a></td>                
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+            </tr>            
+                                            
+    </table>
+
+
+
+    </section>
+    {% elsif page.section-type == "timeline" %}
+      <!-- {{ page.title }} Section -->
+      <section id="{{ page.title }}" class="container content-section text-center">
+          <div class="row">
+              <div class="col-lg-64 col-lg-offset-0">
+                {{ page.content | markdownify }}
+                <ul class="timeline">
+                    {% for post in site.posts %}
+                      {% assign loopindex = forloop.index | modulo: 2 %}
+                      {% capture class %}
+                        {% if loopindex == 0 %}
+                          timeline-inverted
+                        {% endif %}
+                      {% endcapture %}
+
+                      <li class="{{ class }}">
+                          <div class="timeline-image">
+                              <img class="img-circle img-responsive" src="{{ site.baseurl }}/{% if post.image %}{{ post.image }}{% else %}{{site.career-img}}{% endif %}" alt="">
+                          </div>
+                          <div class="timeline-panel">
+                              <div class="timeline-heading">
+                                  <h4>{{ post.title }}</h4>
+                                  <h4 class="subheading">{{ post.subtitle }}</h4>
+                              </div>
+                              <div class="timeline-body">
+                                  <p class="text-muted">{{ post.content }}</p>
+                              </div>
+                          </div>
+                      </li>
+
+                    {% endfor %}
+
+                      <li class="timeline-inverted">
+                        <div class="timeline-image">
+                          <img class="img-circle img-responsive" src="{{ site.baseurl }}/assets/img/wangpeng.jpeg" alt="">
+                        </div>
+                      </li>
+                </ul>
+
+              </div>
+          </div>
+      </section>
+
+    {% elsif page.section-type == "contact" %}
+      <!-- {{ page.title }} Section -->
+      <section id="{{ page.title }}" class="container content-section text-center">
+          <div class="row">
+              <div class="col-lg-8 col-lg-offset-2">
+                {{ page.content | markdownify }}
+
+                {% if page.email %}
+                <p><a href="mailto:{{ page.email }}">{{ page.email }}</a></p>
+                {% endif %}
+                <ul class="list-inline social-buttons">
+                    {% for network in page.social %}
+                    <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }} fa-fw"></i></a></li>
+                    {% endfor %}
+                </ul>
+              </div>
+          </div>
+      </section>
+            
+    {% endif %}
+  {% endfor %}
+{% include js.html %}
+
+</body>
+</html>
