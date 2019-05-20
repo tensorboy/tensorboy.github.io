@@ -4,4 +4,4 @@ title: fall 18 - Present
 subtitle: <a href="http://aifi.io/"> AiFi computer vision lab</a>
 image: "assets/img/aifi.png"
 ---
-deep learning research
+founding member of aifi inc.
