@@ -4,5 +4,5 @@ title: fall 18 - Present
 subtitle: <a href="http://aifi.io/"> AiFi computer vision lab</a>
 image: "assets/img/aifi.png"
 ---
-founding member of aifi inc.
-Developed customer detection algorithm for <a href="http://nanostore.ai/"> AiFi's nano store</a>
+Founding member of aifi inc..
+Developed customer detection algorithm for <a href="http://nanostore.ai/"> AiFi's nano store</a>.
