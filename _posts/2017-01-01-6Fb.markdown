@@ -4,4 +4,5 @@ title: fall 16 - fall 18
 subtitle: <a href="https://www4.comp.polyu.edu.hk/~cslzhang/"> polyu lei zhang Computer Vision Lab </a>
 image: "assets/img/polyu.png"
 ---
-Worked on deep learning optimization.
+Developed pid optimizer for deep learning optimization, which opens the door for further innovations in ai.
+Developed facial recognition system for hong kong international airport.
