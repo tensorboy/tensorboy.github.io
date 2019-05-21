@@ -7,7 +7,3 @@ image: "assets/img/polyu.png"
 Developed pid optimizer for deep learning optimization.
 
 Developed facial recognition system for hong kong international airport.
-
-Developed hardhat detection system in construction site.
-
-Developed human pose system in the management of construction site.

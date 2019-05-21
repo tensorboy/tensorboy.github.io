@@ -6,6 +6,6 @@ image: "assets/img/aifi.png"
 ---
 Founding member of aifi inc..
 
-Developed detection system for the <a href="http://nanostore.ai/"> nano store</a>.
+Developed detection system of <a href="http://nanostore.ai/"> nano store</a>.
 
 Developed aifi-pose system.
