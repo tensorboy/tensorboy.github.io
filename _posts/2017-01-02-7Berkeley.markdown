@@ -1,7 +1,7 @@
 ---
 layout: null
 title: fall 18 - Present
-subtitle: <a href="http://aifi.io/"> AiFi computer vision lab</a>
+subtitle: <a href="http://aifi.io/"> aifi inc.</a>
 image: "assets/img/aifi.png"
 ---
 Founding member of aifi inc..
