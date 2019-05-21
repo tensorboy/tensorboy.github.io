@@ -1,7 +1,6 @@
 ---
 layout: null
-title: Spring 2013
-subtitle: mitsubishi hiroshima factory, japan
-image: "assets/img/mitsubishi.svg"
+title: Fall 12 - Fall 2015
+image: "assets/img/tisco1.jpeg"
 ---
-Concentration on the control system improvement of the steel milling machine.  
+Mechanical Control Engineer
