@@ -6,4 +6,4 @@ image: "assets/img/aifi.png"
 ---
 Founding member of aifi inc..
 
-Developed customer detection algorithm for <a href="http://nanostore.ai/"> AiFi's nano store</a>.
+Developed detection algorithm for the <a href="http://nanostore.ai/"> nano store</a>.
