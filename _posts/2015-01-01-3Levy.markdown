@@ -1,6 +1,7 @@
 ---
 layout: null
 title: Fall 12 - Fall 2015
+subtitle: <a href="http://en.tisco.com.cn/"> Taiyuan iron and steel corporation </a>
 image: "assets/img/tisco1.jpeg"
 ---
-Mechanical Control Engineer
+Concentration on the hyperparameter tuning for a real giant machine in order to let it learning.
