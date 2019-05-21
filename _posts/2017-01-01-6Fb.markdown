@@ -5,5 +5,3 @@ subtitle: <a href="https://www4.comp.polyu.edu.hk/~cslzhang/"> polyu lei zhang C
 image: "assets/img/polyu.png"
 ---
 Developed pid optimizer for deep learning optimization.
-
-Developed facial recognition system for hong kong international airport.
