@@ -1,6 +1,7 @@
 ---
 layout: null
 title: Spring 2013
+subtitle: Mitsubishi Hiroshima Factory, Japan
 image: "assets/img/mitsubishi.svg"
 ---
-Mitsubishi Hiroshima Factory, Japan
+Concentration on the control system improvement of the steel milling machine.  
