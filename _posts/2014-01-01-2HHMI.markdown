@@ -1,7 +1,7 @@
 ---
 layout: null
 title: Fall 2008 - Fall 2012
-major in instrument and measurement science
+subtitle: major in instrument and measurement science
 image: "assets/img/kust.jpg"
 ---
-subtitle: concentration in control theory
+concentration in control theory
