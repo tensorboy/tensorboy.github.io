@@ -1,7 +1,7 @@
 ---
 layout: null
 title: Fall 2008 - Fall 2012
-subtitle: <a href="http://english.kmust.edu.cn/"> Kunming University of Science and Technology </a>, , major in instrument and measurement science
+subtitle: <a href="http://english.kmust.edu.cn/"> Kunming University of Science and Technology, major in instrument and measurement science </a>
 image: "assets/img/kust.jpg"
 ---
 concentration in control theory
