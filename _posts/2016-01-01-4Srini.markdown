@@ -1,7 +1,7 @@
 ---
 layout: null
 title: Spring 2013
-subtitle: <a href="https://www.mhi.com/company/location/hiroshimaw/"> subtitle: mitsubishi hiroshima factory, japan  </a>
+subtitle: <a href="https://www.mhi.com/company/location/hiroshimaw/"> subtitle: mitsubishi hiroshima factory, japan </a>
 image: "assets/img/mitsubishi.svg"
 ---
 Concentration on the control system improvement of the steel milling machine.  
