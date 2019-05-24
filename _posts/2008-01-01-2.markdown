@@ -1,6 +1,6 @@
 ---
 layout: null
-title: Fall 2008 - Fall 2012
+title: Fall 08 - Fall 12
 subtitle: <a href="http://english.kmust.edu.cn/"> Kunming University of Science and Technology </a>
 image: "assets/img/kust.jpg"
 ---
