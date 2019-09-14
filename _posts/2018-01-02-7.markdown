@@ -1,10 +1,9 @@
 ---
 layout: null
-title: fall 18 - Present
+title: spring 18 - Present
 subtitle: <a href="http://aifi.io/"> aifi inc.</a>
 image: "assets/img/aifi.png"
 ---
-Founding member of aifi inc..
 
 Developed aifi-pose system.
 
