@@ -1,6 +1,6 @@
 ---
 layout: null
-title: june 18 - Present
+title: june 18 - november 20
 subtitle: <a href="http://aifi.io/"> aifi inc.</a>
 image: "assets/img/aifi.png"
 ---

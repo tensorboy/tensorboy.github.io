@@ -1,0 +1,9 @@
+---
+layout: null
+title: november 20 - Present
+subtitle: <a href="https://about.fb.com/"> Facebook, Inc. </a>
+image: "assets/img/facebook.jpeg"
+---
+
+Working on the fairness and inclusive in AI.
+
