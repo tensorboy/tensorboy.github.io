@@ -1,6 +1,6 @@
 ---
 layout: null
-title: november 20 - Present
+title: November 20 - Present
 subtitle: <a href="https://about.fb.com/"> Facebook, Inc. </a>
 image: "assets/img/facebook.jpeg"
 ---

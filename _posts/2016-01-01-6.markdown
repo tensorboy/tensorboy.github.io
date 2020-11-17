@@ -1,6 +1,6 @@
 ---
 layout: null
-title: fall 16 - srping 18
+title: October 16 - April 18
 subtitle: <a href="https://www4.comp.polyu.edu.hk/~cslzhang/"> polyu lei zhang Computer Vision Lab </a>
 image: "assets/img/polyu.png"
 ---
